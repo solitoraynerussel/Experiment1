@@ -13,7 +13,7 @@ int main()
     cout << "Enter density: ";
     cin >> density;
 
-    volume = mass / density;
+    volume = mass / (density * 4);
 
     cout << "Volume is " << volume <<endl;
 
