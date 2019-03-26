@@ -1,7 +1,7 @@
 #include <fstream>
 #include <iostream>
 #include <iomanip>
-
+#include <conio.h>
 using namespace std;
 
 int main()
@@ -42,5 +42,6 @@ int main()
 
     inFile.close();
     return 0;
+    getch();
 }
 
